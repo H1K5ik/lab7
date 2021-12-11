@@ -1,0 +1,182 @@
+html{
+  box-sizing: border-box;
+  max-height: 2400px;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+  max-height: 2400px;
+}
+body{
+  font-family: Arial;
+  font-style: normal;
+  font_size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-decoration: none;
+max-height: 2400px;
+  
+}
+.wrapper{
+  
+  max-width: 1500px;
+  margin: 0 auto;
+
+}
+@media(max-width: 770px){
+  .main__main{
+    flex-wrap: wrap;
+    
+  }
+  .main__item1{
+    margin-left: 10%;
+  }
+  
+}
+
+ @media(max-width: 1160px){
+  .main__flex::before,
+  .main__flex::after{
+    width: 100%;
+    content: ' ';
+    background-color: #000;
+    width: 100%;
+    height: 2px;
+    left: 0;
+  }
+ }  
+
+.header__intro{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-left: 10%;
+}
+.header__item1{
+  max-width: 400px;
+}
+.header__item2{
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 48px;
+  max-width: 1000px;
+}
+
+/*HEADER END*/
+
+
+/*ZA HEADEROM START*/
+
+.main__flex{
+  margin-top: 10em;
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  
+}
+
+.start__item{
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+    height: 2em;
+    margin-left: 10%;
+}
+.start__item:first-child{
+
+color: #FF2802;
+
+}
+.main__main{
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 6.35%;
+  margin-left: 6%;
+  display: flex;
+  
+
+}
+.main__item1{
+  max-width: 80%;
+}
+.item1__blocks{
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item1__i1__text1{
+  max-width: 50%;
+  font-size: 25px;
+  
+}
+.item1__i1__text2{
+  max-width: 80%;
+  font-size: 25px;
+  
+}
+.main__item2{
+ margin-left: 10%;
+ max-width: 20%; 
+margin-bottom: 15%;
+}
+.main__i2__t1{
+  
+  max-width: 1000px;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.main__i2__t2{
+  font-size: 25px;
+  width: 100%;
+  margin-left: 0 auto;
+  
+}
+.main__i2__t3{
+  margin-top: 20%;
+  white-space: nowrap;
+  
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.main__i2__t4{
+  font-size: 25px;
+  
+  margin-left: 0 auto;
+}
+.main__i2__t5{
+  margin-top: 20%;
+  
+  white-space: nowrap;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.main__i2__t6{
+  font-size: 25px;
+  
+  margin-left: 0 auto;
+}
+.end__item{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.main__end{
+  display: flex;
+
+  padding-top: 3%;
+  height: 8em;
+  margin: 0 auto;
+   background-color: black; 
+   opacity: .6;
+   
+}
+.end__item{
+  color: white;
+  margin-left: 50%;
+  
+ 
+}
+.end__item:first-child{
+  margin-left: 5%;
+}
